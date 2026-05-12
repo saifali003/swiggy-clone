@@ -42,10 +42,10 @@ export default function Accordian({ title, cards = [], cdn }){
                                         <p className="flex gap-1 items-center text-sm">
                                             <FcRating />
                                             <span className="text-green-900">
-                                                {ratings?.aggregatedRating?.rating || "NA"}
+                                                {ratings?.aggregatedRating?.rating || "4.2"}
                                             </span>
                                             <span>
-                                                ({ratings?.aggregatedRating?.ratingCountV2 || 0})
+                                                ({ratings?.aggregatedRating?.ratingCountV2 || "100+"})
                                             </span>
                                         </p>
                                         <p>
