@@ -6,7 +6,7 @@ export default function Cart() {
     const dispatch = useDispatch();
     const items = useSelector((state) => state.cart.items);
     return (
-        <div className="pt-24 w-screen flex justify-center">
+        <div className="pt-24 w-screen flex justify-center ">
             <Navbar/>
             <div className="w-[60%]">
                 <h1 className="text-3xl font-bold mb-5">Cart</h1>

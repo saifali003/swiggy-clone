@@ -38,7 +38,7 @@ export default function Accordian({ title, cards = [], cdn }){
                                             alt="veg indicator"
                                         />
                                         <h2 className="font-bold">{name || "Unknown Item"}</h2>
-                                        <p>₹ {defaultPrice ? defaultPrice / 100 : "N/A"}</p>
+                                        <p>₹ {(defaultPrice || info.price) ? (defaultPrice || info.price) / 100 : "N/A"}</p>
                                         <p className="flex gap-1 items-center text-sm">
                                             <FcRating />
                                             <span className="text-green-900">
